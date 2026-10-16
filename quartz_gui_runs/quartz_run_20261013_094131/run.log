@@ -1,0 +1,23 @@
+2026-10-13T09:41:31.564+02:00 PHASE: Worker started
+2026-10-13T09:41:31.568+02:00 PHASE: Building All assemblies
+2026-10-13T09:41:31.571+02:00 Effective maximum photon bounces: Cherenkov=1000, Scintillator=1000 (Run controls override)
+2026-10-13T09:41:31.574+02:00 PHASE: Building global geometry and event view
+2026-10-13T09:41:31.675+02:00 Running CompoundGeometry(0:box/fused_silica, 1:tapered_rectangular_prism/fused_silica) with internal Fresnel/Snell interfaces
+2026-10-13T09:41:31.684+02:00 PHASE: Starting All event 1/10
+2026-10-13T09:41:54.562+02:00 PHASE: Writing ROOT output
+2026-10-13T09:41:55.122+02:00 ROOT output written to D:\Devel\Devel-2\new\quartz_gui_runs\quartz_run_20261013_094131\quartz_cherenkov.root
+2026-10-13T09:41:55.131+02:00 PHASE: Closing ROOT output
+2026-10-13T09:41:55.132+02:00 PHASE: Aggregating results
+2026-10-13T09:41:55.140+02:00 PHASE: Writing readout arrival dataset
+2026-10-13T09:41:55.145+02:00 Readout arrival dataset written to D:\Devel\Devel-2\new\quartz_gui_runs\quartz_run_20261013_094131\readout_arrivals.json
+2026-10-13T09:41:55.146+02:00 PHASE: Writing plots
+2026-10-13T09:41:55.551+02:00 Saved event_display_event_0.png
+2026-10-13T09:41:55.682+02:00 Saved detector_impacts_cumulative.png
+2026-10-13T09:41:55.832+02:00 Saved photons_per_event.png
+2026-10-13T09:41:55.932+02:00 Saved arrival_times.png
+2026-10-13T09:41:56.041+02:00 Saved wavelengths.png
+2026-10-13T09:41:56.194+02:00 Saved outcome_face_counts.png
+2026-10-13T09:41:56.361+02:00 Saved transport_diagnostic.png
+2026-10-13T09:41:56.369+02:00 PHASE: Saving summary
+2026-10-13T09:41:56.383+02:00 Saved summary.json (201278 bytes)
+2026-10-13T09:41:56.386+02:00 PHASE: Updating GUI

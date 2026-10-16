@@ -1,0 +1,20 @@
+Quartz Cherenkov and Scintillator Simulator v73
+Application version: 0.41.0
+Build: build-20260928-v73-gamma-results-scroll
+
+Changes
+- Added a tab-level vertical scrollbar and mouse-wheel scrolling to Gamma Results so the summary, per-event list, selected-event viewer, and details are reachable in short windows.
+- Preserved the Gamma event list and synchronized selected-event viewer/detail panel.
+- Kept the event table's horizontal scrollbar and its own wheel navigation. Aggregate and selected-event text panes keep their own wheel navigation.
+- Wheel routing is scoped to the tab under the pointer and does not affect another tab.
+- Retained v72 complete geometry snapshots and v71 independent Gamma result persistence, as well as prior Windows/Tk and Global Assembly profile fixes.
+
+Verification
+- Python syntax compilation passed for the six release Python modules.
+- Targeted Gamma Results scroll and wheel routing checks passed.
+- Full check_environment.py suite passed.
+- The suite skipped optional ROOT file writing because uproot and awkward are unavailable.
+- Windows launcher structure checks passed; not executed on Windows.
+- Interactive GUI visual QA unavailable because this sandbox has no display server.
+
+Release archive: v73_gamma_results_scroll.zip

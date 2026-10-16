@@ -1,0 +1,11 @@
+2026-09-28T19:05:32.337+02:00 PHASE: Worker started
+2026-09-28T19:05:32.365+02:00 PHASE: Building Gamma transport assemblies
+2026-09-28T19:05:32.388+02:00 PHASE: Starting Gamma transport
+2026-09-28T19:05:32.433+02:00 Gamma source: thin centered collimated +Z; continuum uses approved relative profile
+2026-09-28T19:05:32.455+02:00 Gamma active user line weights: [(511.0, 1.0), (835.0, 1.0), (1173.0, 1.0), (1275.0, 1.0), (1332.0, 1.0), (1461.0, 1.0)]
+2026-09-28T19:05:32.480+02:00 Gamma semantic boundary: local expected light only; no optical transport or sensor detection
+2026-09-28T19:05:32.516+02:00 Saved gamma_results.json (145956 bytes)
+2026-09-28T19:05:32.634+02:00 Saved gamma_transport.png
+2026-09-28T19:05:32.682+02:00 Saved summary.json (18027 bytes)
+2026-09-28T19:05:32.708+02:00 Updated independent latest Gamma result index: D:\Devel\new\quartz_gui_runs\latest_gamma_result.json
+2026-09-28T19:05:32.730+02:00 PHASE: Updating GUI

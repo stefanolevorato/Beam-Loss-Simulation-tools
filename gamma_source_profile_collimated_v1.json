@@ -1,0 +1,672 @@
+{
+  "schema": "gamma-source-profile-v1",
+  "source": "Radiacode 103 presentation screenshot supplied by user",
+  "measurement_context": {
+    "instrument": "Radiacode 103 dosimeter",
+    "dose_rate_uSv_per_h_approx": 7.0,
+    "absolute_flux_normalization": "not calibrated; do not infer incident gamma rate from dose rate alone"
+  },
+  "spectrum": {
+    "energy_unit": "keV",
+    "ordinate_source_unit": "counts/s read approximately from screenshot",
+    "sampling_weights": "relative; normalized to maximum of digitized/interpolated curve",
+    "bin_width_keV": 25.0,
+    "bins": [
+      {
+        "energy_center_keV": 12.5,
+        "relative_weight": 0.2622534601283164,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 37.5,
+        "relative_weight": 0.28716397564059815,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 62.5,
+        "relative_weight": 0.44189737994215256,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 87.5,
+        "relative_weight": 0.7791588204597073,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 112.5,
+        "relative_weight": 1.0,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 137.5,
+        "relative_weight": 0.95564289400364,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 162.5,
+        "relative_weight": 0.8340316645913183,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 187.5,
+        "relative_weight": 0.6800062367298287,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 212.5,
+        "relative_weight": 0.5671467335522571,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 237.5,
+        "relative_weight": 0.41282394414686435,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 262.5,
+        "relative_weight": 0.3004929743552344,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 287.5,
+        "relative_weight": 0.23413175145505355,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 312.5,
+        "relative_weight": 0.1783339884912326,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 337.5,
+        "relative_weight": 0.13895050012070384,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 362.5,
+        "relative_weight": 0.11328971151845517,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 387.5,
+        "relative_weight": 0.10583612318867212,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 412.5,
+        "relative_weight": 0.08629075716791744,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 437.5,
+        "relative_weight": 0.07362054050439217,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 462.5,
+        "relative_weight": 0.07703771038987263,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 487.5,
+        "relative_weight": 0.0806134915806522,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 512.5,
+        "relative_weight": 0.07530974623595044,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 537.5,
+        "relative_weight": 0.061401861944990845,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 562.5,
+        "relative_weight": 0.053588110630362645,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 587.5,
+        "relative_weight": 0.04469418111134513,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 612.5,
+        "relative_weight": 0.041753649069417705,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 637.5,
+        "relative_weight": 0.03108966647382453,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 662.5,
+        "relative_weight": 0.026524718579653696,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 687.5,
+        "relative_weight": 0.02212245518980484,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 712.5,
+        "relative_weight": 0.020666968441548653,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 737.5,
+        "relative_weight": 0.024223787858230858,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 762.5,
+        "relative_weight": 0.03327917954577492,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 787.5,
+        "relative_weight": 0.04676870554030911,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 812.5,
+        "relative_weight": 0.04676870554030911,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 837.5,
+        "relative_weight": 0.035622890717479025,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 862.5,
+        "relative_weight": 0.02212245518980484,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 887.5,
+        "relative_weight": 0.01574166207401961,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 912.5,
+        "relative_weight": 0.010464326903448617,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 937.5,
+        "relative_weight": 0.009481830712008135,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 962.5,
+        "relative_weight": 0.008591581138539512,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 987.5,
+        "relative_weight": 0.00778491714333452,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1012.5,
+        "relative_weight": 0.007053990872148825,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1037.5,
+        "relative_weight": 0.006391691306176921,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1062.5,
+        "relative_weight": 0.0057915750805348784,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1087.5,
+        "relative_weight": 0.005247803798199284,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1112.5,
+        "relative_weight": 0.004755087229543683,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1137.5,
+        "relative_weight": 0.004308631844873478,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1162.5,
+        "relative_weight": 0.0039040941792437608,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1187.5,
+        "relative_weight": 0.0035375385758568065,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1212.5,
+        "relative_weight": 0.0032053988969341536,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1237.5,
+        "relative_weight": 0.0029044438295568677,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1262.5,
+        "relative_weight": 0.0026317454489422484,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1287.5,
+        "relative_weight": 0.002384650733316111,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1312.5,
+        "relative_weight": 0.0021607557532551665,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1337.5,
+        "relative_weight": 0.0019578822843933827,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1362.5,
+        "relative_weight": 0.0017740566159625405,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1387.5,
+        "relative_weight": 0.0016074903490000125,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1412.5,
+        "relative_weight": 0.001456562997413801,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1437.5,
+        "relative_weight": 0.0013198062226344722,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1462.5,
+        "relative_weight": 0.0011958895484764371,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1487.5,
+        "relative_weight": 0.0010836074172316306,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1512.5,
+        "relative_weight": 0.0009818674610672382,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1537.5,
+        "relative_weight": 0.0008896798746224784,
+        "source_status": "estimated_log_linear_under_statistics_box"
+      },
+      {
+        "energy_center_keV": 1562.5,
+        "relative_weight": 0.0008061477854128265,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1587.5,
+        "relative_weight": 0.0008246446539534902,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1612.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1637.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1662.5,
+        "relative_weight": 0.000944887151274888,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1687.5,
+        "relative_weight": 0.0012981070236333105,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1712.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1737.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1762.5,
+        "relative_weight": 0.0006425291558728056,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1787.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1812.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1837.5,
+        "relative_weight": 0.00033279710833938344,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1862.5,
+        "relative_weight": 0.0008061477854128265,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1887.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1912.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1937.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1962.5,
+        "relative_weight": 0.00015741913383061692,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 1987.5,
+        "relative_weight": 0.0008246446539534902,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2012.5,
+        "relative_weight": 0.0007880658036287436,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2037.5,
+        "relative_weight": 0.0008246446539534902,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2062.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2087.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2112.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2137.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2162.5,
+        "relative_weight": 0.0006425291558728056,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2187.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2212.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2237.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2262.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2287.5,
+        "relative_weight": 0.0003180351917294913,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2312.5,
+        "relative_weight": 0.000478425661014259,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2337.5,
+        "relative_weight": 0.0006425291558728056,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2362.5,
+        "relative_weight": 0.00015741913383061692,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2387.5,
+        "relative_weight": 0.0003253324333012866,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2412.5,
+        "relative_weight": 0.00015741913383061692,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2437.5,
+        "relative_weight": 0.00015741913383061692,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2462.5,
+        "relative_weight": 0.00015741913383061692,
+        "source_status": "digitized_visible"
+      },
+      {
+        "energy_center_keV": 2487.5,
+        "relative_weight": 0.0003180351917294913,
+        "source_status": "digitized_visible"
+      }
+    ]
+  },
+  "reference_lines": [
+    {
+      "energy_keV": 511,
+      "candidate_assignment": "511 keV line",
+      "relative_intensity": null,
+      "assignment_status": "source/assignment to verify",
+      "sampling_included": false
+    },
+    {
+      "energy_keV": 835,
+      "candidate_assignment": "Mn-54",
+      "relative_intensity": null,
+      "assignment_status": "user-identified",
+      "sampling_included": false
+    },
+    {
+      "energy_keV": 1173,
+      "candidate_assignment": "Co-60",
+      "relative_intensity": null,
+      "assignment_status": "user-identified",
+      "sampling_included": false
+    },
+    {
+      "energy_keV": 1275,
+      "candidate_assignment": "Na-22",
+      "relative_intensity": null,
+      "assignment_status": "user-identified",
+      "sampling_included": false
+    },
+    {
+      "energy_keV": 1332,
+      "candidate_assignment": "Co-60",
+      "relative_intensity": null,
+      "assignment_status": "user-identified",
+      "sampling_included": false
+    },
+    {
+      "energy_keV": 1461,
+      "candidate_assignment": "K-40",
+      "relative_intensity": null,
+      "assignment_status": "user-identified",
+      "sampling_included": false
+    }
+  ],
+  "calibration": {
+    "energy_pixel_range": [
+      183.0,
+      1083.0
+    ],
+    "energy_range_keV": [
+      0,
+      2500
+    ],
+    "log_rate_tick_pixels": [
+      74.0,
+      175.0,
+      276.0,
+      378.0,
+      479.0,
+      581.0,
+      683.0
+    ],
+    "log10_rate_decades": [
+      2,
+      1,
+      0,
+      -1,
+      -2,
+      -3,
+      -4
+    ],
+    "fit_slope_log10_per_pixel": -0.009852182594708528,
+    "fit_intercept": 2.7241250207998244
+  },
+  "limitations": [
+    "Statistics box masks roughly 925-1550 keV; the continuum there is provisional log-linear interpolation.",
+    "Reference line energies are markers only because line intensities are not readable/provided.",
+    "511 keV assignment is unverified.",
+    "Relative profile must not be interpreted as absolute incident flux; dose rate alone does not calibrate flux."
+  ],
+  "profile_name": "Beam-region activation gamma background, preliminary",
+  "source_geometry": {
+    "initial_model": "thin_collimated_beam",
+    "direction_global": [
+      0,
+      0,
+      1
+    ],
+    "axis_convention": "global +Z",
+    "spatial_distribution": "centered on beam axis; point-like transverse approximation",
+    "angular_spread": "not modeled in this initial profile"
+  },
+  "continuum_component": {
+    "enabled": true,
+    "weight_scale": 1.0,
+    "data_source": "digitized relative curve in bins; bins under screenshot statistics overlay are provisional interpolations"
+  },
+  "line_components": [
+    {
+      "energy_keV": 511,
+      "label": "511 keV line",
+      "candidate_assignment": "annihilation or other origin; verify",
+      "relative_weight": null,
+      "enabled_for_sampling": false,
+      "weight_status": "user_calibration_required"
+    },
+    {
+      "energy_keV": 835,
+      "label": "Mn-54 candidate line",
+      "candidate_assignment": "Mn-54",
+      "relative_weight": null,
+      "enabled_for_sampling": false,
+      "weight_status": "user_calibration_required"
+    },
+    {
+      "energy_keV": 1173,
+      "label": "Co-60 line",
+      "candidate_assignment": "Co-60",
+      "relative_weight": null,
+      "enabled_for_sampling": false,
+      "weight_status": "user_calibration_required"
+    },
+    {
+      "energy_keV": 1275,
+      "label": "Na-22 line",
+      "candidate_assignment": "Na-22",
+      "relative_weight": null,
+      "enabled_for_sampling": false,
+      "weight_status": "user_calibration_required"
+    },
+    {
+      "energy_keV": 1332,
+      "label": "Co-60 line",
+      "candidate_assignment": "Co-60",
+      "relative_weight": null,
+      "enabled_for_sampling": false,
+      "weight_status": "user_calibration_required"
+    },
+    {
+      "energy_keV": 1461,
+      "label": "K-40 line",
+      "candidate_assignment": "K-40",
+      "relative_weight": null,
+      "enabled_for_sampling": false,
+      "weight_status": "user_calibration_required"
+    }
+  ],
+  "sampling_policy": {
+    "continuum_and_lines": "when calibrated, sample discrete lines using user-supplied relative weights in the same relative-weight convention; do not assign missing weights automatically",
+    "unweighted_lines_active": false,
+    "energy_unit": "keV"
+  },
+  "notes": [
+    "Reference line energies are stored as candidates, but their relative intensities are null until supplied/calibrated; they are excluded from sampling by default."
+  ]
+}

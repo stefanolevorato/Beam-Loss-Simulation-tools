@@ -1,0 +1,31 @@
+Quartz Cherenkov and Scintillator Simulator v72
+Application version: 0.40.0
+Build: build-20260928-v72-gamma-event-list-geometry
+
+Changes
+- Added a per-event Gamma Results table with event ID, source energy and
+  component, interaction count and processes, deposit record count and total,
+  charged-track count, expected local light when available, and INTERACTION /
+  EMPTY status.
+- Selecting a table row synchronizes the Gamma event viewer, event details,
+  and existing event selector.
+- Gamma runs now save both complete assembly profiles, sensor profile data,
+  rigid transforms, and the complete transformed Global Assembly scene.
+- Gamma transport active and guide solids use the same two detached assembly
+  models and transforms as the Global Assembly scene. The 3D viewer renders
+  the saved assemblies beneath event data, including for empty events.
+- Older saved results without a geometry snapshot are identified in the tab
+  and viewer. No current or guessed geometry is substituted.
+- Retained v71 Gamma-result persistence, Windows/Tk fixes, and complete Global
+  Assembly profile save/load behavior.
+
+Verification
+- Python syntax compilation passed for the six release Python modules.
+- Full check_environment.py suite passed, including new mixed-event status and
+  selection checks, zero-interaction two-assembly rendering, exact transformed
+  Gamma solid bound comparisons, and legacy geometry-snapshot messaging.
+- Windows launch scripts passed structural checks; they were not executed on
+  Windows. Interactive GUI visual QA was unavailable because the sandbox has
+  no display server.
+
+Release archive: v72_gamma_event_list_geometry.zip

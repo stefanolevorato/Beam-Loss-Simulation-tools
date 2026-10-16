@@ -1,0 +1,750 @@
+{
+  "assemblies": {
+    "cherenkov": {
+      "geometry": {
+        "active_sections": [
+          {
+            "axis": "Z",
+            "center_x_mm": 0.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 100.0,
+            "material": "fused silica",
+            "name": "Quartz bar",
+            "order": 0,
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "role": "active",
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "box",
+            "thickness_z_end_mm": 10.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 20.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          },
+          {
+            "axis": "X",
+            "center_x_mm": 65.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 30.0,
+            "material": "fused silica",
+            "name": "Section 2",
+            "order": 1,
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "role": "active",
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "tapered_rectangular_prism",
+            "thickness_z_end_mm": 8.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 15.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          }
+        ],
+        "assembly_type": "cherenkov",
+        "derived_diagnostics": {},
+        "detector_type": "cherenkov",
+        "format": "complete-detector-assembly-geometry",
+        "guide_enabled": false,
+        "guide_sections": [],
+        "impact_x_mm": 0.0,
+        "impact_xy_mm": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "impact_y_mm": 0.0,
+        "light_guide": {
+          "enabled": false,
+          "present": false,
+          "sections": []
+        },
+        "local_assembly_settings": {
+          "coordinate_system": "assembly-local millimetres",
+          "global_placement_offsets_excluded": true,
+          "run_particle_configuration_excluded": true
+        },
+        "metadata": {
+          "impact_coordinates": [
+            "impact_x_mm",
+            "impact_y_mm"
+          ],
+          "impact_z": "derived; no independent impact Z is serialized",
+          "section_order": "ordered active sections, then ordered optional guide sections",
+          "terminal_faces": [
+            "+X",
+            "-X"
+          ]
+        },
+        "mylar": {
+          "enabled": true,
+          "overlay_surface_count": 9,
+          "reflectivity": 0.95
+        },
+        "mylar_enabled": true,
+        "mylar_reflectivity": 0.95,
+        "name": "Cherenkov",
+        "opposite_end_mode": "open",
+        "photosensor_readout": {
+          "acceptance_deg": 90.0,
+          "automatic_position": true,
+          "collection_efficiency": 1.0,
+          "coupled_target": "active terminal face",
+          "coupled_terminal": "plus_x",
+          "coupling_mode": "derived",
+          "detector_specific_response": {
+            "generation_model": "Cherenkov generation/transport response",
+            "ideal_reference": {
+              "acceptance_deg": 90.0,
+              "collection_efficiency": 1.0,
+              "coupling_index": 1.46,
+              "quantum_efficiency": 1.0,
+              "timing_sigma_ns": 0.0
+            }
+          },
+          "dimensions_mm": {
+            "depth": 2.0,
+            "height": 8.0,
+            "width": 15.0
+          },
+          "optical_window_coupling_index": 1.46,
+          "position_mm": [
+            80.8,
+            0.0,
+            0.0
+          ],
+          "present": true,
+          "quantum_efficiency": 1.0,
+          "readout_radius_mm": 4.0,
+          "readout_semiaxes_mm": {
+            "a": 7.5,
+            "b": 4.0
+          },
+          "sensor_id": "sensor_1",
+          "shape": "rectangular",
+          "timing_readout": {
+            "mode": "Gaussian timing/readout sigma",
+            "sigma_ns": 0.0
+          }
+        },
+        "schema_version": 32,
+        "sections": [
+          {
+            "axis": "Z",
+            "center_x_mm": 0.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 100.0,
+            "material": "fused silica",
+            "name": "Quartz bar",
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "box",
+            "thickness_z_end_mm": 10.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 20.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          },
+          {
+            "axis": "X",
+            "center_x_mm": 65.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 30.0,
+            "material": "fused silica",
+            "name": "Section 2",
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "tapered_rectangular_prism",
+            "thickness_z_end_mm": 8.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 15.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          }
+        ],
+        "terminal_minus_surface": "Open",
+        "terminal_plus_surface": "Detector/Photosensor coupling",
+        "terminal_surfaces": {
+          "+X": "Detector/Photosensor coupling",
+          "-X": "Open"
+        },
+        "type_marker": "complete-detector-assembly-geometry"
+      },
+      "identity": {
+        "id": "cherenkov",
+        "name": "Cherenkov"
+      },
+      "photosensor_readout": {
+        "acceptance_deg": 90.0,
+        "automatic_position": true,
+        "collection_efficiency": 1.0,
+        "coupled_target": "active terminal face",
+        "coupled_terminal": "plus_x",
+        "coupling_mode": "derived",
+        "detector_specific_response": {
+          "generation_model": "Cherenkov generation/transport response",
+          "ideal_reference": {
+            "acceptance_deg": 90.0,
+            "collection_efficiency": 1.0,
+            "coupling_index": 1.46,
+            "quantum_efficiency": 1.0,
+            "timing_sigma_ns": 0.0
+          }
+        },
+        "dimensions_mm": {
+          "depth": 2.0,
+          "height": 8.0,
+          "width": 15.0
+        },
+        "optical_window_coupling_index": 1.46,
+        "position_mm": [
+          80.8,
+          0.0,
+          0.0
+        ],
+        "present": true,
+        "quantum_efficiency": 1.0,
+        "readout_radius_mm": 4.0,
+        "readout_semiaxes_mm": {
+          "a": 7.5,
+          "b": 4.0
+        },
+        "sensor_id": "sensor_1",
+        "shape": "rectangular",
+        "timing_readout": {
+          "mode": "Gaussian timing/readout sigma",
+          "sigma_ns": 0.0
+        }
+      },
+      "transform": {
+        "rotation_angle_deg": 0.0,
+        "rotation_axis": "None",
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "values": {
+        "assembly_1_rotation_angle_deg": "0.0",
+        "assembly_1_rotation_axis": "None",
+        "assembly_2_rotation_angle_deg": "0.0",
+        "assembly_2_rotation_axis": "None",
+        "cherenkov_guide_enabled": "0",
+        "cherenkov_mylar_enabled": "1",
+        "cherenkov_mylar_reflectivity_percent": "95.0",
+        "collection_efficiency": "0.80",
+        "detector1_guide_left_enabled": "0",
+        "detector1_guide_left_shape": "box",
+        "detector1_guide_right_enabled": "0",
+        "detector1_guide_right_shape": "box",
+        "detector2_guide_left_enabled": "0",
+        "detector2_guide_left_shape": "box",
+        "detector2_guide_right_enabled": "0",
+        "detector2_guide_right_shape": "box",
+        "detector2_offset_x_mm": "0.0",
+        "detector2_offset_y_mm": "0.0",
+        "detector2_offset_z_mm": "50",
+        "detector2_scintillator_material": "scintillator",
+        "detector2_scintillator_refractive_index": "1.58",
+        "detector2_scintillator_shape": "box",
+        "detector_1_z_mm": "20.0",
+        "detector_2_z_mm": "55.0",
+        "detector_acceptance_deg": "30.0",
+        "detector_active_height_mm": "10.0",
+        "detector_active_offset_y_mm": "0.0",
+        "detector_active_offset_z_mm": "0.0",
+        "detector_active_radius_mm": "5.0",
+        "detector_active_rotation_deg": "0.0",
+        "detector_active_semi_axis_a_mm": "10.0",
+        "detector_active_semi_axis_b_mm": "5.0",
+        "detector_active_width_mm": "20.0",
+        "detector_index": "1.0",
+        "detector_qe": "0.25",
+        "detector_separation_mm": "25.0",
+        "detector_shape": "rectangular",
+        "entry_x_mm": "0.0",
+        "entry_y_mm": "0.0",
+        "global_beam_axis": "Z",
+        "global_offset_x_mm": "0.0",
+        "global_offset_y_mm": "0.0",
+        "global_offset_z_mm": "0.0",
+        "mirror_reflectivity": "1.0",
+        "opposite_collection_efficiency": "",
+        "opposite_detector_acceptance_deg": "",
+        "opposite_detector_active_height_mm": "10.0",
+        "opposite_detector_active_offset_y_mm": "0.0",
+        "opposite_detector_active_offset_z_mm": "0.0",
+        "opposite_detector_active_radius_mm": "5.0",
+        "opposite_detector_active_rotation_deg": "0.0",
+        "opposite_detector_active_semi_axis_a_mm": "10.0",
+        "opposite_detector_active_semi_axis_b_mm": "5.0",
+        "opposite_detector_active_width_mm": "20.0",
+        "opposite_detector_index": "",
+        "opposite_detector_qe": "",
+        "opposite_detector_shape": "rectangular",
+        "opposite_end_mode": "open",
+        "scintillator_gap_mm": "10.0",
+        "sensor_1_acceptance_deg": "90.0",
+        "sensor_1_automatic_position": "1",
+        "sensor_1_collection": "1.0",
+        "sensor_1_component": "quartz",
+        "sensor_1_coupling": "direct",
+        "sensor_1_height_mm": "8.0",
+        "sensor_1_ideal_active": "0",
+        "sensor_1_index": "1.46",
+        "sensor_1_position_x_mm": "80.8",
+        "sensor_1_position_y_mm": "0.0",
+        "sensor_1_position_z_mm": "0.0",
+        "sensor_1_qe": "1.0",
+        "sensor_1_radius_mm": "4.0",
+        "sensor_1_semi_axis_a_mm": "7.5",
+        "sensor_1_semi_axis_b_mm": "4.0",
+        "sensor_1_shape": "rectangular",
+        "sensor_1_side": "Y+",
+        "sensor_1_timing_sigma_ns": "0.0",
+        "sensor_1_width_mm": "15.0",
+        "terminal_minus_surface": "Open",
+        "terminal_plus_surface": "Detector/Photosensor coupling"
+      }
+    },
+    "scintillator": {
+      "geometry": {
+        "active_sections": [
+          {
+            "axis": "X",
+            "center_x_mm": 0.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 20.0,
+            "material": "scintillator",
+            "name": "Scintillator active",
+            "order": 0,
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "role": "active",
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "box",
+            "thickness_z_end_mm": 10.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 20.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          },
+          {
+            "axis": "X",
+            "center_x_mm": 20.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 20.0,
+            "material": "light guide",
+            "name": "Section 2",
+            "order": 1,
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "role": "active",
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "tapered_rectangular_prism",
+            "thickness_z_end_mm": 5.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 10.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          }
+        ],
+        "assembly_type": "scintillator",
+        "derived_diagnostics": {},
+        "detector_type": "scintillator",
+        "format": "complete-detector-assembly-geometry",
+        "guide_enabled": false,
+        "guide_sections": [],
+        "impact_x_mm": 0.0,
+        "impact_xy_mm": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "impact_y_mm": 0.0,
+        "light_guide": {
+          "enabled": false,
+          "present": false,
+          "sections": []
+        },
+        "local_assembly_settings": {
+          "coordinate_system": "assembly-local millimetres",
+          "global_placement_offsets_excluded": true,
+          "run_particle_configuration_excluded": true
+        },
+        "metadata": {
+          "impact_coordinates": [
+            "impact_x_mm",
+            "impact_y_mm"
+          ],
+          "impact_z": "derived; no independent impact Z is serialized",
+          "section_order": "ordered active sections, then ordered optional guide sections",
+          "terminal_faces": [
+            "+X",
+            "-X"
+          ]
+        },
+        "mylar": {
+          "enabled": true,
+          "overlay_surface_count": 8,
+          "reflectivity": 0.95
+        },
+        "mylar_enabled": true,
+        "mylar_reflectivity": 0.95,
+        "name": "Scintillator",
+        "opposite_end_mode": "mirror",
+        "photosensor_readout": {
+          "acceptance_deg": 90.0,
+          "automatic_position": true,
+          "collection_efficiency": 1.0,
+          "coupled_target": "active terminal face",
+          "coupled_terminal": "plus_x",
+          "coupling_mode": "derived",
+          "detector_specific_response": {
+            "absorption_length_mm": null,
+            "decay_time_ns": 2.0,
+            "generation_model": "deposited-energy/scintillation generation/transport response",
+            "max_bounces": 100,
+            "sampling_mode": "Fixed Monte Carlo test sample",
+            "yield_per_deposited_MeV": 10000.0
+          },
+          "dimensions_mm": {
+            "depth": 2.0,
+            "height": 5.0,
+            "width": 10.0
+          },
+          "optical_window_coupling_index": 1.49,
+          "position_mm": [
+            30.75,
+            0.0,
+            0.0
+          ],
+          "present": true,
+          "quantum_efficiency": 1.0,
+          "readout_radius_mm": 2.5,
+          "readout_semiaxes_mm": {
+            "a": 5.0,
+            "b": 2.5
+          },
+          "sensor_id": "sensor_2",
+          "shape": "rectangular",
+          "timing_readout": {
+            "mode": "Gaussian timing/readout sigma",
+            "sigma_ns": 0.0
+          }
+        },
+        "schema_version": 32,
+        "sections": [
+          {
+            "axis": "X",
+            "center_x_mm": 0.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 20.0,
+            "material": "scintillator",
+            "name": "Scintillator active",
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "box",
+            "thickness_z_end_mm": 10.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 20.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          },
+          {
+            "axis": "X",
+            "center_x_mm": 20.0,
+            "center_y_mm": 0.0,
+            "center_z_mm": 0.0,
+            "length_mm": 100.0,
+            "length_x_mm": 20.0,
+            "material": "light guide",
+            "name": "Section 2",
+            "radius_end_mm": 5.0,
+            "radius_mm": 10.0,
+            "radius_start_mm": 10.0,
+            "semi_axis_a_mm": 10.0,
+            "semi_axis_b_mm": 5.0,
+            "shape": "tapered_rectangular_prism",
+            "thickness_z_end_mm": 5.0,
+            "thickness_z_mm": 10.0,
+            "thickness_z_start_mm": 10.0,
+            "width_y_end_mm": 10.0,
+            "width_y_mm": 20.0,
+            "width_y_start_mm": 20.0
+          }
+        ],
+        "terminal_minus_surface": "Mirror",
+        "terminal_plus_surface": "Detector/Photosensor coupling",
+        "terminal_surfaces": {
+          "+X": "Detector/Photosensor coupling",
+          "-X": "Mirror"
+        },
+        "type_marker": "complete-detector-assembly-geometry"
+      },
+      "identity": {
+        "id": "scintillator",
+        "name": "Scintillator"
+      },
+      "photosensor_readout": {
+        "acceptance_deg": 90.0,
+        "automatic_position": true,
+        "collection_efficiency": 1.0,
+        "coupled_target": "active terminal face",
+        "coupled_terminal": "plus_x",
+        "coupling_mode": "derived",
+        "detector_specific_response": {
+          "absorption_length_mm": null,
+          "decay_time_ns": 2.0,
+          "generation_model": "deposited-energy/scintillation generation/transport response",
+          "max_bounces": 100,
+          "sampling_mode": "Fixed Monte Carlo test sample",
+          "yield_per_deposited_MeV": 10000.0
+        },
+        "dimensions_mm": {
+          "depth": 2.0,
+          "height": 5.0,
+          "width": 10.0
+        },
+        "optical_window_coupling_index": 1.49,
+        "position_mm": [
+          30.75,
+          0.0,
+          0.0
+        ],
+        "present": true,
+        "quantum_efficiency": 1.0,
+        "readout_radius_mm": 2.5,
+        "readout_semiaxes_mm": {
+          "a": 5.0,
+          "b": 2.5
+        },
+        "sensor_id": "sensor_2",
+        "shape": "rectangular",
+        "timing_readout": {
+          "mode": "Gaussian timing/readout sigma",
+          "sigma_ns": 0.0
+        }
+      },
+      "transform": {
+        "rotation_angle_deg": 0.0,
+        "rotation_axis": "None",
+        "translation_mm": [
+          0.0,
+          0.0,
+          50.0
+        ]
+      },
+      "values": {
+        "assembly_1_rotation_angle_deg": "0.0",
+        "assembly_1_rotation_axis": "None",
+        "assembly_2_rotation_angle_deg": "0.0",
+        "assembly_2_rotation_axis": "None",
+        "detector1_guide_left_enabled": "0",
+        "detector1_guide_left_shape": "box",
+        "detector1_guide_right_enabled": "0",
+        "detector1_guide_right_shape": "box",
+        "detector2_guide_left_enabled": "0",
+        "detector2_guide_left_shape": "box",
+        "detector2_guide_right_enabled": "0",
+        "detector2_guide_right_shape": "box",
+        "detector2_offset_x_mm": "0.0",
+        "detector2_offset_y_mm": "0.0",
+        "detector2_offset_z_mm": "50",
+        "detector2_scintillator_material": "scintillator",
+        "detector2_scintillator_refractive_index": "1.58",
+        "detector2_scintillator_shape": "box",
+        "detector_1_z_mm": "20.0",
+        "detector_2_z_mm": "55.0",
+        "detector_separation_mm": "25.0",
+        "global_beam_axis": "Z",
+        "global_offset_x_mm": "0.0",
+        "global_offset_y_mm": "0.0",
+        "global_offset_z_mm": "0.0",
+        "guide_axis": "X",
+        "guide_length_mm": "40.0",
+        "guide_length_x_mm": "40.0",
+        "guide_material": "light_guide",
+        "guide_radius_end_mm": "8.0",
+        "guide_radius_mm": "10.0",
+        "guide_radius_start_mm": "10.0",
+        "guide_refractive_index": "1.49",
+        "guide_semi_axis_a_mm": "10.0",
+        "guide_semi_axis_b_mm": "5.0",
+        "guide_shape": "none",
+        "guide_thickness_z_end_mm": "10.0",
+        "guide_thickness_z_mm": "10.0",
+        "guide_thickness_z_start_mm": "10.0",
+        "guide_width_y_end_mm": "20.0",
+        "guide_width_y_mm": "20.0",
+        "guide_width_y_start_mm": "20.0",
+        "mylar_enabled": "1",
+        "mylar_reflectivity_percent": "95.0",
+        "scintillator_absorption_length_mm": "",
+        "scintillator_axis": "X",
+        "scintillator_center_x_mm": "0.0",
+        "scintillator_center_y_mm": "0.0",
+        "scintillator_center_z_mm": "0.0",
+        "scintillator_dEdx_MeV_per_m": "200.0",
+        "scintillator_decay_time_ns": "2.0",
+        "scintillator_deposited_energy_MeV": "",
+        "scintillator_gap_mm": "10.0",
+        "scintillator_guide_enabled": "0",
+        "scintillator_impact_x_mm": "0.0",
+        "scintillator_impact_y_mm": "0.0",
+        "scintillator_length_mm": "100.0",
+        "scintillator_length_x_mm": "20.0",
+        "scintillator_material": "scintillator",
+        "scintillator_max_bounces": "100",
+        "scintillator_photon_count": "100",
+        "scintillator_radius_end_mm": "5.0",
+        "scintillator_radius_mm": "10.0",
+        "scintillator_radius_start_mm": "10.0",
+        "scintillator_readout_acceptance_deg": "90.0",
+        "scintillator_readout_collection_efficiency": "1.0",
+        "scintillator_readout_index": "1.0",
+        "scintillator_readout_qe": "1.0",
+        "scintillator_refractive_index": "1.58",
+        "scintillator_sampling_mode": "Fixed Monte Carlo test sample",
+        "scintillator_semi_axis_a_mm": "10.0",
+        "scintillator_semi_axis_b_mm": "5.0",
+        "scintillator_shape": "box",
+        "scintillator_terminal_minus_surface": "Mirror",
+        "scintillator_terminal_plus_surface": "Detector/Photosensor coupling",
+        "scintillator_thickness_z_end_mm": "10.0",
+        "scintillator_thickness_z_mm": "10.0",
+        "scintillator_thickness_z_start_mm": "10.0",
+        "scintillator_wavelength_max_nm": "550.0",
+        "scintillator_wavelength_min_nm": "350.0",
+        "scintillator_width_y_end_mm": "20.0",
+        "scintillator_width_y_mm": "20.0",
+        "scintillator_width_y_start_mm": "20.0",
+        "scintillator_yield_per_MeV": "10000.0",
+        "sensor_2_acceptance_deg": "90.0",
+        "sensor_2_automatic_position": "1",
+        "sensor_2_collection": "1.0",
+        "sensor_2_component": "scintillator_2",
+        "sensor_2_coupling": "direct",
+        "sensor_2_height_mm": "5.0",
+        "sensor_2_ideal_active": "0",
+        "sensor_2_index": "1.49",
+        "sensor_2_position_x_mm": "30.75",
+        "sensor_2_position_y_mm": "0.0",
+        "sensor_2_position_z_mm": "0.0",
+        "sensor_2_qe": "1.0",
+        "sensor_2_radius_mm": "2.5",
+        "sensor_2_semi_axis_a_mm": "5.0",
+        "sensor_2_semi_axis_b_mm": "2.5",
+        "sensor_2_shape": "rectangular",
+        "sensor_2_side": "Y+",
+        "sensor_2_timing_sigma_ns": "0.0",
+        "sensor_2_width_mm": "10.0"
+      }
+    }
+  },
+  "assembly_order": [
+    "cherenkov",
+    "scintillator"
+  ],
+  "beam_relative_placement": {
+    "assembly_transforms": {
+      "cherenkov": {
+        "rotation_angle_deg": 0.0,
+        "rotation_axis": "None",
+        "translation_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "scintillator": {
+        "rotation_angle_deg": 0.0,
+        "rotation_axis": "None",
+        "translation_mm": [
+          0.0,
+          0.0,
+          50.0
+        ]
+      }
+    },
+    "coordinate_system": "global millimetres; rotations in degrees",
+    "values": {
+      "assembly_1_rotation_angle_deg": "0.0",
+      "assembly_1_rotation_axis": "None",
+      "assembly_2_rotation_angle_deg": "0.0",
+      "assembly_2_rotation_axis": "None",
+      "detector1_guide_left_enabled": "0",
+      "detector1_guide_left_shape": "box",
+      "detector1_guide_right_enabled": "0",
+      "detector1_guide_right_shape": "box",
+      "detector2_guide_left_enabled": "0",
+      "detector2_guide_left_shape": "box",
+      "detector2_guide_right_enabled": "0",
+      "detector2_guide_right_shape": "box",
+      "detector2_offset_x_mm": "0.0",
+      "detector2_offset_y_mm": "0.0",
+      "detector2_offset_z_mm": "50",
+      "detector2_scintillator_material": "scintillator",
+      "detector2_scintillator_refractive_index": "1.58",
+      "detector2_scintillator_shape": "box",
+      "detector_1_z_mm": "20.0",
+      "detector_2_z_mm": "55.0",
+      "detector_separation_mm": "25.0",
+      "global_beam_axis": "Z",
+      "global_offset_x_mm": "0.0",
+      "global_offset_y_mm": "0.0",
+      "global_offset_z_mm": "0.0",
+      "scintillator_gap_mm": "10.0"
+    }
+  },
+  "format": "beam-monitor-global-assembly-profile-v1",
+  "run_configuration": {
+    "maximum_photon_bounces": "not included; Run controls is the run-time authority",
+    "particle_configuration": "not included; remains in Run / Particle track"
+  },
+  "schema_version": 1,
+  "units": {
+    "angle": "deg",
+    "efficiency": "fraction",
+    "length": "mm",
+    "time": "ns"
+  }
+}

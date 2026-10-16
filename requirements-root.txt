@@ -1,0 +1,3 @@
+# Optional ROOT event output support.
+uproot>=5
+awkward>=2

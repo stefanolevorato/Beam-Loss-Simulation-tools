@@ -1,0 +1,39 @@
+Quartz Cherenkov Simulator v77
+Build: build-20260929-v77-gamma-global-interactive-viewer
+Application version: 0.45.0
+
+Gamma global interactive viewer:
+- Added “Open Interactive Global 3D” to the Gamma Results area.
+- Added a detached global-coordinate viewer with event selection, mouse drag
+  rotation, wheel zoom, and reset controls.
+- Renders both saved canonical assembly geometries and their global offsets
+  from the run's gamma-global-assembly-geometry-v1 snapshot.
+- Renders selected-event Gamma segments, charged secondary tracks, deposits,
+  the source emission point, and global source direction when recorded.
+- The direction arrow is scaled for legibility and identified as a view aid.
+  Missing geometry or source metadata is described; current GUI geometry is
+  never substituted for a saved run snapshot.
+- New Gamma event JSON records now retain the actual transport source point
+  and global direction. Legacy results fall back to the primary Gamma segment
+  and run summary when those contain usable values.
+
+Preservation and release:
+- Retained the existing Cherenkov, Scintillator, Global Assembly, and optical
+  event viewers, and the v76 Gamma ancestry/energy accounting behavior.
+- Bumped application version 0.44.0 -> 0.45.0 and build ID v76 -> v77.
+- The attached v76 ZIP was inspected. Its seven members matched the separate
+  staged source files byte for byte; no newer archive changes were found.
+- Packaged all project source, data, checks, and notes staged in this task as
+  quartz_cherenkov_simulator_v77.zip. Original Windows launcher files were not
+  present in the workspace and therefore are not in the archive.
+
+Verification:
+- Python syntax compilation, all six targeted Gamma transport tests, and the
+  full staged-source checker passed.
+- The headless checker covers source metadata, global data mapping, both saved
+  assemblies, Gamma Results button wiring, popup creation/draw invocation,
+  and the existing simulator regressions.
+- Windows launcher checks were skipped because the four originals were not
+  staged. The optional ROOT writer check was skipped because uproot/awkward
+  are unavailable.
+- Desktop visual testing was unavailable in the sandbox.

@@ -1,0 +1,7 @@
+energy_keV,candidate_assignment,relative_intensity,assignment_status,note
+511,511 keV line,not provided,source/assignment to verify,"Energy marker only, not included as a weighted line in sampling profile"
+835,Mn-54,not provided,user-identified,"Energy marker only, not included as a weighted line in sampling profile"
+1173,Co-60,not provided,user-identified,"Energy marker only, not included as a weighted line in sampling profile"
+1275,Na-22,not provided,user-identified,"Energy marker only, not included as a weighted line in sampling profile"
+1332,Co-60,not provided,user-identified,"Energy marker only, not included as a weighted line in sampling profile"
+1461,K-40,not provided,user-identified,"Energy marker only, not included as a weighted line in sampling profile"

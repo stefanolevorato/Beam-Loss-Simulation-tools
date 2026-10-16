@@ -1,0 +1,28 @@
+Quartz Cherenkov Simulator v75
+Build: build-20260929-v75-local-mirror-label
+
+Issue: complete local interactive 3D views rendered terminal mirror plates,
+but did not consistently give the mirror a clear label. The Cherenkov viewer
+had no mirror legend entry; the Scintillator viewer included a long internal
+component name in its top banner.
+
+Fix: the local viewer adapter now derives a concise "Mirror at +X" or
+"Mirror at -X" label for each mirror terminal from the canonical complete
+assembly scene. The Cherenkov legend includes a red swatch and bold terminal
+label. The Scintillator local 3D view shows the same label in a white-backed
+terminal legend. Mirror geometry, state, transforms, camera controls, and the
+Global Assembly viewer are unchanged.
+
+Regression: check_environment.py exercises both local 3D renderer paths with
+a recording canvas for mirrors on +X and -X, in addition to the existing JSON
+roundtrip, GUI state, geometry, persistence, Gamma, and transport checks.
+
+Release: application version 0.43.0, v75 build identifier. Desktop GUI visual
+verification was not performed in the headless release environment.
+
+Verification: Python syntax compilation passed. The v75 terminal roundtrip and
+both local viewer renderers passed with the recording-canvas regression. The
+remaining Python checks after package inventory also passed. The complete
+check_environment.py entry point stops at the pre-existing package inventory
+because the staged files omit Start_GUI.bat; Windows launcher checks therefore
+could not run from this source set.

@@ -1,0 +1,458 @@
+{
+  "events": [
+    {
+      "charged_tracks": [],
+      "deposits": [],
+      "escaped_gamma_energy_keV": 387.5,
+      "event_id": 0,
+      "interaction_counts": {},
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 387.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [],
+      "deposits": [],
+      "escaped_gamma_energy_keV": 137.5,
+      "event_id": 1,
+      "interaction_counts": {},
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 137.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [
+        {
+          "beta": 0.2829490572673871,
+          "deposited_energy_keV": 4.227997929192584,
+          "direction": [
+            0.15481795087182698,
+            0.012114533707167946,
+            0.9878687363009857
+          ],
+          "energy_keV": 21.771705392456894,
+          "escaped_energy_keV": 17.54370746326431,
+          "kind": "electron",
+          "parent_track_id": 1,
+          "path_mm": 0.3251588029746121,
+          "position_m": [
+            0.0,
+            0.0,
+            0.00467878578322046
+          ],
+          "range_mm": 1.674376804976134,
+          "track_id": 1,
+          "volume": "Cherenkov quartz section 1"
+        },
+        {
+          "beta": 0.2070937163640542,
+          "deposited_energy_keV": 0.0,
+          "direction": [
+            -0.2901676331662933,
+            0.36739872287661446,
+            -0.8836407205936722
+          ],
+          "energy_keV": 11.323368522685698,
+          "escaped_energy_keV": 11.323368522685698,
+          "kind": "electron",
+          "parent_track_id": 2,
+          "path_mm": 0.0,
+          "position_m": [
+            -0.004914352768881835,
+            -0.000384549026338825,
+            -0.008254044425074044
+          ],
+          "range_mm": 1.9495431622351063,
+          "track_id": 2,
+          "volume": "Cherenkov quartz section 1"
+        },
+        {
+          "beta": 0.4280039188972394,
+          "deposited_energy_keV": 54.40492608485741,
+          "direction": [
+            -0.28428889720460937,
+            0.7611186509650039,
+            0.5829907564270637
+          ],
+          "energy_keV": 54.40492608485741,
+          "escaped_energy_keV": 0.0,
+          "kind": "electron",
+          "parent_track_id": 3,
+          "path_mm": 1.3095496978057461,
+          "position_m": [
+            -0.003981534672387533,
+            -0.005201920525049164,
+            -0.004294590190450711
+          ],
+          "range_mm": 1.3095496978057461,
+          "track_id": 3,
+          "volume": "Cherenkov quartz section 1"
+        }
+      ],
+      "deposits": [
+        {
+          "assembly": "cherenkov",
+          "component": "quartz",
+          "energy_keV": 4.227997929192584,
+          "event_id": 2,
+          "incident_gamma_keV": 87.5,
+          "interaction": "compton",
+          "material": "fused_silica",
+          "position_m": [
+            0.0,
+            0.0,
+            0.00467878578322046
+          ],
+          "secondary_track_ids": [
+            1
+          ],
+          "track_id": 1,
+          "volume": "Cherenkov quartz section 1"
+        },
+        {
+          "assembly": "cherenkov",
+          "component": "quartz",
+          "energy_keV": 0.0,
+          "event_id": 2,
+          "incident_gamma_keV": 65.7282946075431,
+          "interaction": "compton",
+          "material": "fused_silica",
+          "position_m": [
+            -0.004914352768881835,
+            -0.000384549026338825,
+            -0.008254044425074044
+          ],
+          "secondary_track_ids": [
+            2
+          ],
+          "track_id": 2,
+          "volume": "Cherenkov quartz section 1"
+        },
+        {
+          "assembly": "cherenkov",
+          "component": "quartz",
+          "energy_keV": 54.40492608485741,
+          "event_id": 2,
+          "incident_gamma_keV": 54.40492608485741,
+          "interaction": "photoelectric",
+          "material": "fused_silica",
+          "position_m": [
+            -0.003981534672387533,
+            -0.005201920525049164,
+            -0.004294590190450711
+          ],
+          "secondary_track_ids": [
+            3
+          ],
+          "track_id": 3,
+          "volume": "Cherenkov quartz section 1"
+        }
+      ],
+      "escaped_gamma_energy_keV": 0.0,
+      "event_id": 2,
+      "interaction_counts": {
+        "compton": 2,
+        "photoelectric": 1
+      },
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 87.5,
+      "terminated_gamma_energy_keV": 54.40492608485741
+    },
+    {
+      "charged_tracks": [],
+      "deposits": [],
+      "escaped_gamma_energy_keV": 137.5,
+      "event_id": 3,
+      "interaction_counts": {},
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 137.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [],
+      "deposits": [],
+      "escaped_gamma_energy_keV": 312.5,
+      "event_id": 4,
+      "interaction_counts": {},
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 312.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [],
+      "deposits": [],
+      "escaped_gamma_energy_keV": 87.5,
+      "event_id": 5,
+      "interaction_counts": {},
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 87.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [
+        {
+          "beta": 0.3077097445449064,
+          "deposited_energy_keV": 26.057848334456494,
+          "direction": [
+            0.12304600337836137,
+            -0.47028031633995127,
+            0.8738970792466397
+          ],
+          "energy_keV": 26.057848334456494,
+          "escaped_energy_keV": 0.0,
+          "kind": "electron",
+          "parent_track_id": 1,
+          "path_mm": 1.600223517944848,
+          "position_m": [
+            0.0,
+            0.0,
+            -0.0011165043194525386
+          ],
+          "range_mm": 1.600223517944848,
+          "track_id": 1,
+          "volume": "Cherenkov quartz section 1"
+        }
+      ],
+      "deposits": [
+        {
+          "assembly": "cherenkov",
+          "component": "quartz",
+          "energy_keV": 26.057848334456494,
+          "event_id": 6,
+          "incident_gamma_keV": 112.5,
+          "interaction": "compton",
+          "material": "fused_silica",
+          "position_m": [
+            0.0,
+            0.0,
+            -0.0011165043194525386
+          ],
+          "secondary_track_ids": [
+            1
+          ],
+          "track_id": 1,
+          "volume": "Cherenkov quartz section 1"
+        }
+      ],
+      "escaped_gamma_energy_keV": 86.4421516655435,
+      "event_id": 6,
+      "interaction_counts": {
+        "compton": 1
+      },
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 112.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [],
+      "deposits": [],
+      "escaped_gamma_energy_keV": 862.5,
+      "event_id": 7,
+      "interaction_counts": {},
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 862.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [],
+      "deposits": [],
+      "escaped_gamma_energy_keV": 112.5,
+      "event_id": 8,
+      "interaction_counts": {},
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 112.5,
+      "terminated_gamma_energy_keV": 0.0
+    },
+    {
+      "charged_tracks": [
+        {
+          "beta": 0.17142235134975364,
+          "deposited_energy_keV": 7.677640887006561,
+          "direction": [
+            0.7342851022343669,
+            0.48145055087520716,
+            0.4785715784484333
+          ],
+          "energy_keV": 7.677640887006561,
+          "escaped_energy_keV": 0.0,
+          "kind": "electron",
+          "parent_track_id": 1,
+          "path_mm": 2.115523822167249,
+          "position_m": [
+            0.0,
+            0.0,
+            0.001469923798875769
+          ],
+          "range_mm": 2.115523822167249,
+          "track_id": 1,
+          "volume": "Cherenkov quartz section 1"
+        }
+      ],
+      "deposits": [
+        {
+          "assembly": "cherenkov",
+          "component": "quartz",
+          "energy_keV": 7.677640887006561,
+          "event_id": 9,
+          "incident_gamma_keV": 112.5,
+          "interaction": "compton",
+          "material": "fused_silica",
+          "position_m": [
+            0.0,
+            0.0,
+            0.001469923798875769
+          ],
+          "secondary_track_ids": [
+            1
+          ],
+          "track_id": 1,
+          "volume": "Cherenkov quartz section 1"
+        }
+      ],
+      "escaped_gamma_energy_keV": 104.82235911299344,
+      "event_id": 9,
+      "interaction_counts": {
+        "compton": 1
+      },
+      "light": [],
+      "source_component": "continuum",
+      "source_energy_keV": 112.5,
+      "terminated_gamma_energy_keV": 0.0
+    }
+  ],
+  "model_status": "first_stage_effective_cross_sections_no_geant4",
+  "notes": [
+    "Effective coarse mass-attenuation tables are used for fused silica and plastic/PMMA-like materials.",
+    "Electrons and positrons use straight-line CSDA range/deposition; multiple scattering and detailed relaxation are not modeled.",
+    "Cherenkov/scintillation photons are counted locally from charged secondaries; no optical-photon or fiber transport is performed.",
+    "Line components remain disabled unless explicit user relative weights are supplied."
+  ],
+  "summary": {
+    "active_line_energies_keV": [],
+    "active_line_weights": [],
+    "by_assembly": {
+      "cherenkov": {
+        "deposited_energy_keV": 92.36841323551305,
+        "expected_cherenkov_photons": 0.0,
+        "expected_scintillation_photons": 0.0,
+        "interactions": {
+          "compton": 4,
+          "photoelectric": 1
+        }
+      },
+      "detector_1": {
+        "deposited_energy_keV": 0.0,
+        "expected_cherenkov_photons": 0.0,
+        "expected_scintillation_photons": 0.0,
+        "interactions": {}
+      },
+      "detector_2": {
+        "deposited_energy_keV": 0.0,
+        "expected_cherenkov_photons": 0.0,
+        "expected_scintillation_photons": 0.0,
+        "interactions": {}
+      }
+    },
+    "by_volume": {
+      "Cherenkov quartz section 1": {
+        "assembly": "cherenkov",
+        "component": "quartz",
+        "deposited_energy_MeV": 0.09236841323551305,
+        "deposited_energy_keV": 92.36841323551305,
+        "interactions": {
+          "compton": 4,
+          "photoelectric": 1
+        },
+        "material": "fused_silica"
+      },
+      "Cherenkov quartz section 2": {
+        "assembly": "cherenkov",
+        "component": "quartz",
+        "deposited_energy_MeV": 0.0,
+        "deposited_energy_keV": 0.0,
+        "interactions": {},
+        "material": "fused_silica"
+      },
+      "Detector 1 scintillator section 1": {
+        "assembly": "detector_1",
+        "component": "scintillator",
+        "deposited_energy_MeV": 0.0,
+        "deposited_energy_keV": 0.0,
+        "interactions": {},
+        "material": "scintillator"
+      },
+      "Detector 1 scintillator section 2": {
+        "assembly": "detector_1",
+        "component": "scintillator",
+        "deposited_energy_MeV": 0.0,
+        "deposited_energy_keV": 0.0,
+        "interactions": {},
+        "material": "light_guide"
+      },
+      "Detector 2 scintillator section 1": {
+        "assembly": "detector_2",
+        "component": "scintillator",
+        "deposited_energy_MeV": 0.0,
+        "deposited_energy_keV": 0.0,
+        "interactions": {},
+        "material": "scintillator"
+      },
+      "Detector 2 scintillator section 2": {
+        "assembly": "detector_2",
+        "component": "scintillator",
+        "deposited_energy_MeV": 0.0,
+        "deposited_energy_keV": 0.0,
+        "interactions": {},
+        "material": "scintillator"
+      }
+    },
+    "detector_mode": "gamma",
+    "detector_mode_label": "Gamma transport",
+    "escaped_gamma_energy_keV": 2228.764510778537,
+    "event_accounting": {
+      "completed": 10,
+      "excluded": 0,
+      "failed": 0,
+      "reasons": {
+        "excluded": "not applicable: gamma stage has no sensor acceptance/detection filter",
+        "failed": "none"
+      },
+      "requested": 10,
+      "stopped": false
+    },
+    "events": 10,
+    "geometry_source": "detached v63 canonical assembly snapshot + current two-detector placement controls",
+    "interaction_counts": {
+      "compton": 4,
+      "photoelectric": 1
+    },
+    "model_status": "first_stage_effective_cross_sections_no_geant4",
+    "notes": [
+      "Effective coarse mass-attenuation tables are used for fused silica and plastic/PMMA-like materials.",
+      "Electrons and positrons use straight-line CSDA range/deposition; multiple scattering and detailed relaxation are not modeled.",
+      "Cherenkov/scintillation photons are counted locally from charged secondaries; no optical-photon or fiber transport is performed.",
+      "Line components remain disabled unless explicit user relative weights are supplied."
+    ],
+    "rotations_status": "None/0 deg (supported)",
+    "source_direction_global": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "source_profile": "D:\\Devel\\new\\gamma_source_profile_collimated_v1.json",
+    "stopped": false,
+    "total_charged_secondary_tracks": 5,
+    "total_deposited_energy_keV": 92.36841323551305,
+    "total_expected_cherenkov_photons": 0,
+    "total_expected_scintillation_photons": 0
+  }
+}

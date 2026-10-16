@@ -1,0 +1,3 @@
+# Core GUI and plotting dependencies. Python 3.10+ and Tk are also required.
+numpy>=1.24
+matplotlib>=3.7

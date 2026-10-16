@@ -1,0 +1,36 @@
+v63 gamma GUI integration
+=========================
+
+Build ID: build-20260925-v63-gamma-gui-integration
+
+Changes
+-------
+- Added an explicit Gamma transport Run mode without changing the v62 optical modes.
+- Added shipped approved source profile control and six independent relative line-weight controls.
+- Defaults keep all discrete line weights at zero/unset; no calibration values are invented.
+- Gamma worker consumes the detached GUI snapshot: canonical assembly sections provide shape/size/material and current two-detector controls provide placement/separation.
+- Added gamma_results.json and gamma_transport.png outputs.
+- Added a dedicated Gamma Results tab; optical Results remains semantically separate.
+- Gamma UI clearly labels local expected light as not transported/detected.
+- Added event-level progress and cooperative stop checks.
+- Added Start_GUI.bat for the packaged GUI entry point.
+- Added a rigid local-to-global ray adapter for canonical assembly transforms; non-zero assembly rotations are explicitly guarded because the inherited v62 two-detector placement contract does not apply them.
+
+Physics boundary
+----------------
+The inherited gamma model uses coarse effective cross sections with Compton,
+photoelectric, and pair-production branches; straight-line CSDA secondary
+tracks; and local expected Cherenkov/scintillation production. No Geant4,
+atomic relaxation, multiple-scattering electron transport, optical-photon
+transport, fiber transport, quenching, or electronics response is included.
+The JSON/UI status is first_stage_effective_cross_sections_no_geant4.
+
+Execution
+---------
+1. Run Start_GUI.bat (or `python quartz_cherenkov_gui.py`).
+2. In Run, choose Gamma transport.
+3. Leave all line weights at 0 for continuum-only, or enter explicit relative weights.
+4. Open Gamma Results and inspect gamma_results.json in the run folder.
+
+The v62 frozen archive is preserved separately. No Windows GUI runtime test
+was possible in the sandbox.

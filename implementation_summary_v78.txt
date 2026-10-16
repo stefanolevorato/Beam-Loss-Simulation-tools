@@ -1,0 +1,43 @@
+Quartz Cherenkov Simulator v78
+Application version: 0.46.0
+Build: build-20260929-v78-gamma-charged-boundaries
+
+Baseline consolidation
+- Used gamma_transport.py and test_gamma_transport.py from the attached v76
+  archive; workspace files matched those archive members byte for byte.
+- Recovered the v77 GUI from staged source and quartz_cherenkov_simulator_v77.zip;
+  both copies matched byte for byte and include the detached global Gamma viewer.
+- Preserved v76 charged-track parent IDs and the photoelectric energy closure
+  correction. Incremented the verified v77 app identity to v78 / 0.46.0.
+
+Charged transport increment
+- Replaced clipping at the initial solid with successive configured-volume
+  queries along the straight track. Vacuum gaps are crossed without energy
+  loss; each configured material segment is recorded with position, material,
+  path length, kinetic energy before/after, and deposited energy.
+- Applies the existing unvalidated range as one initial g/cm^2 budget and
+  apportions loss uniformly per areal thickness across the traversed solids.
+  Residual energy after leaving all configured solids is recorded as charged
+  escape. Segment deposits are assigned to their actual volumes.
+- Added per-event and run-summary energy accounting for source, deposited, escaped
+  charged, escaped gamma, sub-threshold terminated gamma, and balance residual.
+  Gamma interaction counts are separate from charged material-loss segments.
+- Updated the detached Gamma viewer to draw stored material segments while
+  retaining compatibility with earlier aggregate charged-track records.
+
+Reference and limitations
+- The available search result identified NIST ESTAR but included no numeric
+  table. The offline sandbox cannot retrieve the underlying data. No new
+  stopping-power numbers or formula were fabricated; the legacy expression is
+  unchanged and its nonmonotonic 12.5 keV / 100 keV outputs remain documented.
+- No multiple scattering, detailed relaxation, energy-dependent stopping
+  integration, or optical-photon transport was added.
+
+Regression and package
+- Added focused tests for adjacent-volume boundary crossing, per-volume loss,
+  path segmentation, charged escape, energy closure, explicit summary
+  accounting, and the pre-existing range limitation and v76 fixes.
+- Updated the full checker to validate v78 identity, viewer segment rendering,
+  charged transport, and the v78 ZIP.
+- Windows launcher originals were not staged. No desktop display was available
+  for GUI visual QA. The full checker reports these limitations explicitly.

@@ -1,0 +1,33 @@
+Quartz Cherenkov Simulator v76
+Build: build-20260929-v76-gamma-ancestry-energy-audit
+
+Baseline: v75 staged source set, application version 0.43.0. Release version
+incremented to 0.44.0. No geometry or UI behavior changes were made.
+
+Gamma transport corrections:
+- Secondary charged tracks now receive the current gamma track ID as parent;
+  pending Compton and pair-annihilation gammas retain their existing ancestry.
+- Photoelectric absorption is no longer added to terminated gamma energy in
+  addition to the resulting charged-track energy. The terminated gamma field
+  now represents gamma energy discarded below the transport threshold.
+- Added deterministic tests for photoelectric, Compton, pair production,
+  sub-threshold gamma termination, charged/gamma escape, and track ancestry.
+
+Range-model decision:
+- The formula was audited but left unchanged because no authoritative range
+  reference or verified derivation was staged and network access was blocked.
+- Added a clearly labeled diagnostic/test for its nonmonotonic output:
+  R(12.5 keV)=0.419657799 g/cm^2 and R(100 keV)=0.242048532 g/cm^2.
+- These are outputs of the current expression, not reference points. See
+  gamma_range_model_diagnostic.md for the data needed to justify a future fix.
+
+Package and verification:
+- No complete v76 ZIP could be built: the four Windows launcher originals and
+  requirements-root.txt are absent from the staged workspace. The existing
+  v75 ZIP remains unchanged and is not a v76 package.
+- The checker includes v76 identity and targeted Gamma tests. Package and
+  launcher checks are reported as skipped when their original files are not
+  staged. GUI visual verification requires a desktop display and was not run.
+- Verification passed: Python syntax compilation, all five focused Gamma
+  tests, and the complete practical headless checker. The optional ROOT writer
+  self-test was skipped because uproot/awkward are unavailable.

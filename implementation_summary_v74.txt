@@ -1,0 +1,27 @@
+Quartz Cherenkov Simulator v74
+Build: build-20260929-v74-cherenkov-terminal-roundtrip
+
+Diagnosis: the v27/v32 serializers wrote canonical endpoint values, but the
+GUI loader committed while Tk traces were suppressed. It left the legacy -X
+opposite_end_mode control stale and placed normalized lower-case model values
+directly into label-based terminal comboboxes. This split the model, visible
+editor controls, and legacy Run panel after import.
+
+Fix: normalized terminal import now resolves scalar endpoint fields, the
+structured terminal_surfaces block, and the legacy -X alias consistently.
+Modern representations are checked for semantic agreement, while a stale
+legacy alias cannot override explicit endpoint data. Both canonical geometry
+exports include terminal_surfaces and the -X compatibility alias. The GUI
+loader updates display labels and opposite_end_mode during the atomic commit,
+then refreshes legacy mode controls and the local/global views from the
+committed model. Mylar configuration and terminal-face exclusions are retained.
+
+Regression: check_environment.py saves and reloads complete Cherenkov geometry
+through the production serializer and GUI load callback with mirrors on both
++X and -X. It checks labels, legacy state, local/global mirror visibility,
+Mylar configuration/exclusion, nested-schema precedence, legacy migration,
+and no state change after a conflicting import.
+
+Release: application version 0.42.0, v74 build identifier. v73 Gamma event
+list/scroll, saved geometry snapshots, persistence, Windows launcher behavior,
+and previous Tk fixes remain covered by the full checker.
